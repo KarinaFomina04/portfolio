@@ -1,0 +1,11 @@
+.faPrimary {
+    color: #ff7eee;
+  }
+  
+  .faSecondary {
+    color: #df49a6;
+  }
+  
+  .faPrimary,.faSecondary {
+    transition: var(--transition-speed);
+  }
