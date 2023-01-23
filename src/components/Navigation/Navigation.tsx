@@ -5,6 +5,9 @@ import AboutIcon from './svg/AboutIcon';
 import SkillsIcon from './svg/SkillsIcon';
 import WorkIcon from './svg/WorkIcon';
 import ContactIcon from './svg/ContactIcon';
+import LinkedInIcon from './svg/LinkedInIcon';
+import GitIcon from './svg/GitIcon';
+import GmailIcon from './svg/GmailIcon';
 
 const Navigation: React.FC = () => {
 
@@ -14,44 +17,50 @@ const Navigation: React.FC = () => {
                 <li className={style.logo}>
                     <a href="#" className={style.navLink}>
                         <span className={`${style.linkText} ${style.logoText}`}>2K</span>
-                        <ArrowIcon/>
+                        <ArrowIcon />
                     </a>
                 </li>
                 <li className={style.navItem}>
                     <a href="#" className={style.navLink}>
-                       <AboutIcon/>
+                        <AboutIcon />
                         <span className={style.linkText}>Cats</span>
                     </a>
                 </li>
                 <li className={style.navItem}>
                     <a href="#" className={style.navLink}>
-                     <SkillsIcon/>
+                        <SkillsIcon />
                         <span className={style.linkText}>Aliens</span>
                     </a>
                 </li>
                 <li className={style.navItem}>
                     <a href="#" className={style.navLink}>
-                       <WorkIcon/>
+                        <WorkIcon />
                         <span className={style.linkText}>Space</span>
                     </a>
                 </li>
                 <li className={style.navItem}>
                     <a href="#" className={style.navLink}>
-                        <ContactIcon/>
+                        <ContactIcon />
                         <span className={style.linkText}>Shuttle</span>
                     </a>
                 </li>
 
             </ul>
             <ul className={style.socials}>
-                <li>
-                    <a className={style.git}>GitHub</a>
+                <li className={style.navItem}>
+                    <a href='https://github.com/KarinaFomina04'>
+                        <GitIcon/>
+                    </a>
                 </li>
-                <li>
-                    <a className={style.linkedIn}>LinkedIn</a>
+                <li className={style.navItem}>
+                    <a href='https://www.linkedin.com/in/karina-kryshneva-192a4a221/'>
+                       <LinkedInIcon/>
+                    </a>
                 </li>
-                <li>
-                    <a className={style.gmail}>Gmail</a>
+                <li className={style.navItem}>
+                    <a href='mailto:karinafomina.19970804@gmail.com'>
+                        <GmailIcon/>
+                    </a>
                 </li>
 
             </ul>
